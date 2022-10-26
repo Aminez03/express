@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;1,400&family=Raleway:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+/* .image{
+    padding-top:20px;
+} */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: rgb(250, 216, 144);
+    width: 100%;
+    height:60px;
+    margin-top: -10px;
+    margin-left: -10px;
+   padding-top: 15px;
+   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(253, 2, 2);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+	/* Base font size */
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #fafafa;
+}
+
+.container {
+
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+    margin-top: 55px;
+    width: 100%;
+
+    background-image: url("http://ce.extension.msstate.edu/sites/ce.extension.msstate.edu/files/styles/article_featured_image/public/photographer.jpg?itok=FaBiJGlK");
+
+}
+.aa{
+    text-align: center;
+    width: 100%;
+    background-color: #f8e9bf;
+margin-top: -20px;
+height: 600px;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.heading {
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #7d2c16;
+    margin-top: -50px;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
+.service{
+   text-align: center;
+    margin-top: -20px;
+    background-image: url("http://ce.extension.msstate.edu/sites/ce.extension.msstate.edu/files/styles/article_featured_image/public/photographer.jpg?itok=FaBiJGlK");
+   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 100%;
+}
+
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+  font-size: 30px;
+  color: #5b5b41;
+  
+}
+
+
+h3{
+    font-size:30px;
+    color: #141410;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+i {
+    font-size: 20px !Important;
+  }
